@@ -1,8 +1,8 @@
 // frontend/src/MapComponent.jsx
 import React, { useEffect, useState } from 'react';
+import MapComponent from './MapComponent';
 import { GoogleMap, Marker, useLoadScript } from '@react-google-maps/api';
 import axios from 'axios';
-import MapComponent from './MapComponent';
 
 const libraries = ['places'];
 const mapContainerStyle = { width: '100%', height: '500px' };
