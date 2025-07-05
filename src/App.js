@@ -1,7 +1,7 @@
 // frontend/src/App.js
 import React from 'react';
 
-import MapComponent from './src/MapComponent';
+import MapComponent from './MapComponent';
 
 function App() {
   return (
