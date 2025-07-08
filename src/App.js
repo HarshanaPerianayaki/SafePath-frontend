@@ -1,6 +1,7 @@
 // frontend/src/App.js
 import React from 'react';
-import MapComponent from './MapComponent.jsx';
+import MapComponent from './MapComponent';
+
 
 function App() {
   return (
@@ -10,4 +11,5 @@ function App() {
     </div>
   );
 }
+export default App;
 
